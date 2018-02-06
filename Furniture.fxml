@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="587.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projects.FurnitureController">
+   <children>
+       <ImageView fitHeight="235.0" fitWidth="254.0" layoutX="19.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+            <Image url="/projects/img/Cupboard.jpg" />
+         </image>
+       </ImageView>
+       <ImageView fitHeight="235.0" fitWidth="254.0" layoutX="19.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+            <Image url="/projects/img/Sofa2.jpg" />
+         </image>
+       </ImageView>
+       <ImageView fitHeight="235.0" fitWidth="254.0" layoutX="308.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+            <Image url="/projects/img/Tables2.jpg" />
+         </image>
+       </ImageView>
+       <ImageView fitHeight="235.0" fitWidth="254.0" layoutX="308.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+            <Image url="/projects/img/Bedroom.jpg" />
+         </image>
+       </ImageView>
+      <Button layoutX="40.0" layoutY="276.0" mnemonicParsing="false" onAction="#cupboard" prefHeight="30.0" prefWidth="135.0" style="-fx-background-color: #ecf846;" text="Cupboard" textFill="#323230">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="44.0" layoutY="549.0" mnemonicParsing="false" onAction="#sofa" prefHeight="30.0" prefWidth="135.0" style="-fx-background-color: #ecf846;" text="Sofa">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="351.0" layoutY="263.0" mnemonicParsing="false" onAction="#dining" prefHeight="30.0" prefWidth="135.0" style="-fx-background-color: #ecf846;" text="Dinning Table">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="359.0" layoutY="552.0" mnemonicParsing="false" onAction="#bed" prefHeight="30.0" prefWidth="135.0" style="-fx-background-color: #ecf846;" text="Traditional Bed">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="42.0" layoutY="11.0" mnemonicParsing="false" onAction="#Back" prefHeight="25.0" prefWidth="98.0" style="-fx-background-color: #bf099f;" text="Back" textFill="#1e1d1e">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

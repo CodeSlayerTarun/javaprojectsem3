@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1300.0" style="-fx-background-color: #FFFFFF;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="projects.MobileInfoNokia8Controller">
+   <children>
+      <ImageView fitHeight="648.0" fitWidth="539.0" layoutX="14.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/projects/projectimg/mobiles/nokia82.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="678.0" fitWidth="722.0" layoutX="568.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/projects/projectimg/mobiles/nokia8s1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="31.0" layoutY="619.0" prefHeight="70.0" prefWidth="300.0" text="Rs. 36,000" textFill="#eb1b1b">
+         <font>
+            <Font name="System Bold" size="44.0" />
+         </font>
+      </Label>
+      <Button layoutX="74.0" layoutY="720.0" mnemonicParsing="false" onAction="#BuyNow" prefHeight="70.0" prefWidth="200.0" style="-fx-background-color: #20e015;" text="BUY NOW!">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="331.0" layoutY="720.0" mnemonicParsing="false" onAction="#BACK" prefHeight="70.0" prefWidth="200.0" style="-fx-background-color: #FF0000;" text="BACK">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="568.0" layoutY="13.0" prefHeight="35.0" prefWidth="500.0" text="NOKIA 8 (DEEP BLUE)">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
